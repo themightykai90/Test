@@ -5,9 +5,3 @@ cy.request('https://restcountries.eu/rest/v2/all')
 
 })
 })
-
-it('.Clearing Search', () => {
-cy.request('GET', 'https://restcountries.eu/rest/v2/name/ireland')
-
-})
-})
